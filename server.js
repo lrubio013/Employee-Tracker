@@ -5,7 +5,6 @@ const db = require("./db/connection.js")
 const PORT = process.env.PORT || 3001;
 const app = express();
 // Allows me to import env file to store my personal information safely
-require("dotenv").config();
 
 
 const startMenu = () => {
@@ -220,7 +219,7 @@ const startMenu = () => {
 
 
 
-
+startMenu()
 
 
 
